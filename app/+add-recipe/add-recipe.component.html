@@ -1,0 +1,9 @@
+<StacyLayout>
+    <ListView [items]="ingredients">
+        <template let-item="ingredient">
+            <StackLayout>
+                <Label [text]="ingredient.singleItemName"></Label>
+            </StackLayout>
+        </template>
+    </ListView>
+</StacyLayout>
